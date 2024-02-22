@@ -19,7 +19,7 @@ This is how you install hollyhock-2 onto your calculator:
 - Press enter.
 - Connect the calculator via USB.
 - On the calculator hold down the `EXP`, `^` and `Clear` keys. With those keys pressed, momentarily press the RESET button on the back of the calculator. Keep the three front buttons pressed until the screen displays the `OS ERROR` message. Don't worry, there is no actual error, this is just the update mode.
-- On the computer, Click on OK in the updater until it gets to a progress bar. There will be not text and some error messages will pop up. This is normal. 
+- On the computer, Click on OK in the updater until it gets to a progress bar. There will not be text and some error messages will pop up. This is normal. 
 - __DO NOT TOUCH__ the calculator until the update is finished.
 - When the updater is finished, unplug it and plug it in again
 - Select USB Storage and copy all of the files from the apps folder to the calculator (from the folder Snail2024) directly onto the calculator.
