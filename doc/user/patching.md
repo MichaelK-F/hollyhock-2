@@ -79,45 +79,24 @@ Snail2021 is the program, that will extract the firmware updater from the casio 
 -Select `mingw32-libz-dev` (from All Packages -> MinGW -> MinGW Libaries -> MinGW Standard Libaries) -> right click -> 'Mark for installation'
 -Click on  'Installation' -> 'Apply Changes'
 
--Double click on `patcher/make.bat`. You should not see any errors. This will create the file Snail2021.exe in the folder Snail2021 on the desktop
+-Change the path of `patcher/make.bat` to what is correct on your computer
+-Double click on `patcher/make.bat`. You should not see any errors. This will create the file `Snail2021.exe` in `patcher/Snail202x/`.
 
-(If your name is not IEUser, you have to change the path in make.bat)
 
 ## 4. Run Snail2021 and modify the firmware
-Go to the desktop into the folder Snail2021. 
 
-Doule click on Snai2021.exe
+- Create a new folder somewhere. For this example it will be called `build`.
+- Copy `Snail2021.exe` to the `build` folder.
+- Copy all of the files from the `extras` folder in the source code into the `build` folder you created.
+- Now you can follow the [simple install instructions](https://github.com/MichaelK-F/hollyhock-2#installation-simple).
 
-Follow the instructions on screen:
-- Download and install Resource Hacker http://angusj.com/resourcehacker/ (scroll down and click on exe install)
-- Download the calculator updater version 02.01.2 https://tiplanet.org/forum/archives_voir.php?id=1044960 (Click on the green download
-- Run the updater, click ok on every question, but __do not__ connect the calculator, go back to the Snail2021.exe window when you are asked to connect the calculator.
-- Click Enter in the Snail2021.exe until it asks you to connect the calculator. 
-- At this point, you can close the Official Updater again.
-- When you click enter in Snail2021.exe for the last time, the modified updater opens.
-
-## 5. Update the firmware
-At this point the modified updater should be open. (it opens at the end of Snail2021.exe, but you can start it manually by clicking on the file `click_to_modify_the_calculator.bat`)
-
-When the updater opens, hold the `[EXP]`, `[^]` and `Clear` keys on your fx-CP400. With those keys depressed, momentarily press the `RESET` button on the back of the calculator (hint: use the stylus!). Keep the three front buttons depressed until the LCD displays the following:
-
-```
-*****************
-*    OS ERROR   *
-* Please update *
-*       OS      *
-*****************
-```
-
-Release the buttons and connect the calculator to your PC using a USB cable. Proceed through the OS updater, and disconnect your calculator **only** once the update has finished.
-
-## 6. Check the patch
+## 5. Check the patch
 Turn on your calculator and confirm the patch was applied correctly by opening the version dialog (either from the settings menu in the top left corner of Main > Version, or in System) and confirming the string "hollyhock" is displayed.
 
-## 7. Build the launcher
+## 6. Build the launcher
 `cd` into the `launcher/` directory. Run `make`, then copy the file `run.bin` into the root directory of your GC's flash.
 
-## 8. Celebrate!
+## 7. Celebrate!
 You've successfully patched your fx-CP400's firmware, and installed the Hollyhock Launcher. You're ready to go!
 
 You can now start [using](using.md) or [developing](developing.md) software for your GC.
