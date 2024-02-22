@@ -10,7 +10,7 @@ Simple instructions if you just want to install it: https://github.com/SnailMath
 If you don't want to youse the precompiled program and you want to compile it by hand, 
 you need both a Windows and Linux machine to complete this process (as there is no updater for Linux, and the extraction tool extracts the firmware from the Windows DLLs). I'd recommend a virtual machine (or Vagrant box for simplicity) rather than two physical machines.
 
-You'll also need a resource editor program - [Resource Hacker](http://www.angusj.com/resourcehacker/) has been tested to work ~~(Visual Studio can also be used to replace the RCDATA resource - just be careful to give the replaced resource an ID of 3070!).~~ (Snail2021 relies on 'Resource Hacker')
+You'll also need a resource editor program - [Resource Hacker](http://www.angusj.com/resourcehacker/) (no longer needed - built in version works although if deleted the patcher will attempt to to use the installed version.
 
 ## 0. Clone this repository
 Clone this repository onto your machine. If you're using a virtual machine, this is really great place to use the shared folders feature your VM host probably provides.
