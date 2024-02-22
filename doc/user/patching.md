@@ -3,7 +3,7 @@ If you want to install gcc for sh4, look [here](https://github.com/TheRainbowPho
 ---
 
 # Patching the fx-CP400 firmware
-**You do not need to do this by hand if you just want to install programs on ypur calculator! Just use the program Snail2021.exe which is available in the releases.**
+**You do not need to do this by hand if you just want to install programs on ypur calculator! Just use the program Snail2024.exe which is available in the releases.**
 
 Simple instructions if you just want to install it: https://github.com/SnailMath/hollyhock-2#installation-simple 
 
@@ -68,8 +68,9 @@ _I would recommend adding `export SDK_DIR="PATH-TO/hollyhock-2/sdk"` to the file
 ## 2. Build the patches and the patcher
 Keep working on your Linux machine.
 
-`cd` into the `patcher/` directory. Run `make`.
-(This will run `make` in `patches/` and it will merge the file mod.txt with the program Snail2021 into a file called Snail2021mod.c)
+This is not nessesary - just include a mod.txt inside the same folder as Snail2024 (also the script has not been updated for Snail2024 - feel free to make a pull request).
+~~`cd` into the `patcher/` directory. Run `make`.
+(This will run `make` in `patches/` and it will merge the file mod.txt with the program Snail2024 into a file called Snail2024mod.c)~~
 
 ## 3. Building Snail2021
 Snail2021 is the program, that will extract the firmware updater from the casio updater. To build this, go to your Windows machine.
