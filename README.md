@@ -24,6 +24,9 @@ This is how you install hollyhock-2 onto your calculator:
 - When the updater is finished, unplug it and plug it in again
 - Select USB Storage and copy all of the files from the apps folder to the calculator (from the folder Snail2024) directly onto the calculator.
 - On the computer, click on eject (probably on the bottom right) and eject the calculator.
+- Unplug then plug in the calculator.
+- On the calculator select `USB Flash`.
+- Copy all of the files and folders from the `HK-apps` to the root of the calculator storage.
 
 To start a program, go to the Menu, go to the right, select System, click on the gear on the top left and click on `HollyHock-2 Launcher`
 
