@@ -377,7 +377,7 @@ of bricking the calculator. So make sure to use the right version.\n\
         fgets(str, 3,stdin); return -1;    
       }
     }
-    //so wen need to copy everything before this mod.
+    //so when need to copy everything before this mod.
     //we are currently at 'current_address' in Fin2 and in Fout.
     //we need to copy until before 'moda'
     //that are (moda - current_address) bytes.
