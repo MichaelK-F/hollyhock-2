@@ -11,7 +11,7 @@
 
 ## Installation (simple)
 This is how you install hollyhock-2 onto your calculator:
-- Download the newest prebuild release of hollyhock-2: https://github.com/SnailMath/hollyhock-2/releases
+- Download the newest prebuild release of hollyhock-2: https://github.com/MichaelK-F/hollyhock-2/releases
 - Extract the zip file.
 - Download the official updater version 02.01.2 (click the green download button): https://tiplanet.org/forum/archives_voir.php?id=1044960
 - Copy the updater into the snail2024 folder
